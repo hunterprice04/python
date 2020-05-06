@@ -314,7 +314,6 @@ class DigitsPredictor:
         plt.show()
 
 
-
 dp = DigitsPredictor(datasets.load_digits())
 
 # dp.display_data()
