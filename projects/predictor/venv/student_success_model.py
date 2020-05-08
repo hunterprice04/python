@@ -56,7 +56,7 @@ class SSM:
         # ]
         #
         # clf = GridSearchCV(estimator=svm.SVR(), param_grid=parameter_candidates, n_jobs=1)
-        clf = svm.SVR(C=200, kernel='linear', gamma=0.001)
+        clf = svm.SVR(C=10, kernel='linear', gamma=0.001)
 
         print("C")
         clf.fit(self.x_train, self.y_train)
